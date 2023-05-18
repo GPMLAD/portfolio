@@ -31,11 +31,15 @@ export const Contacts = () => {
           <motion.div style={{ scale }}>
             <ContactSectionText>
               <Text type="heading2" color="grey4">
-                Let's talk and{" "}
+                Feel free to ask about my{" "}
                 <Text as="span" type="heading2" color="brand1">
-                  develop solutions for your company
+                projects{" "}
                 </Text>
-                , together!
+                or just have a{" "}
+                <Text as="span" type="heading2" color="brand1">
+                chat{" "}
+                </Text>
+                with me.
               </Text>
             </ContactSectionText>
           </motion.div>
@@ -57,8 +61,8 @@ export const Contacts = () => {
                   color="grey2"
                   type="body2"
                   target="_blank"
-                  href={`https://api.whatsapp.com/send?phone=+55+${userData.whatsappNumber}&text=Ol%C3%A1%2C%20venho%20por%20meio%20do%20seu%20portf%C3%B3lio%20na%20internet%2C%20gostaria%20de%20conhecer%20melhor%20seus%20servi%C3%A7os`}
-                >
+                  href={`https://api.whatsapp.com/send?phone=+55+${userData.whatsappNumber}&text=Hello%21+I+was+looking+at+your+portfolio.+Can+we+talk%3F`}
+                  >
                   Talk Now
                 </Text>
               </ContactCardContent>
